@@ -106,6 +106,12 @@ return [
             ],
         ],
 
+        'atlas' => [
+            'driver' => 'mongodb',
+            'database' => 'tingkatStress',
+            'dsn' => 'mongodb+srv://rioyw69:admin@cluster0-bn4ks.mongodb.net/test?retryWrites=true&w=majority'
+        ]
+
     ],
 
     /*

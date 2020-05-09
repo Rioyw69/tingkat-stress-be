@@ -22,12 +22,6 @@ class QuestionSeeder extends Seeder
             ],
 
             [
-                'title' => 'Apakah Anda merasa terlalu bersemangat ?',
-                'is_yes' => 60,
-                'is_not' => 40 
-            ],
-
-            [
                 'title' => 'Apakah penglihatan Anda tajam tidak seperti biasanya ?',
                 'is_yes' => 60,
                 'is_not' => 40
@@ -95,6 +89,13 @@ class QuestionSeeder extends Seeder
             
             [
                 'title' => 'Apakah anda merasa terbebani dengan tuntutan orang tua untuk lulus tepat waktu?',
+                'is_yes' => 60,
+                'is_not' => 40
+            ],
+             
+            
+            [
+                'title' => 'Apakah anda merasa terbebani dengan nilai yang kurang bagus ?',
                 'is_yes' => 60,
                 'is_not' => 40
             ],

@@ -16,245 +16,244 @@ class QuestionSeeder extends Seeder
         $questions = [
 
             [
-                'title' => 'Apakah Anda merasa terlalu bersemangat ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah mimpi-mimpi yang Anda alami menegangkan ?',
+                'is_yes' => 0.85,
+                'is_not' => 0
             ],
 
             [
-                'title' => 'Apakah penglihatan Anda tajam tidak seperti biasanya ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda lebih nyaman mengerjakan tugas kuliah pada malam hari dari pada sing hari walaupun tidak ada pekerjaan pada sing hari  ?',
+                'is_yes' => 0.75,
+                'is_not' => 0
             ],
 
             [
-                'title' => 'Saya merasa energi dan gugup berlebihan ? ',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa terlalu sensitif ? ',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Saya merasa selalu menyenangkan dan selalu bertambah bersemangat ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Saya enggan untuk bertemu dosen pembimbing karena takut mendapat penolakan terhadap revisi dan pengajuan skripsi yang saya kerjakan ?',
+                'is_yes' => 0.75,
+                'is_not' => 0
             ],
     
             [
                 'title' => 'Saya mengerjakan pekerjaan sendiri untuk memastikan tugas terselesaikan dengan baik ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
   
             [
-                'title' => 'Apakah Anda sering mengerjakan tugas kuliah di rumah pada malam hari ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Saya merasa energi gugup berlebihan ?',
+                'is_yes' => 0.85,
+                'is_not' => 0
             ],
      
             [
-                'title' => 'Apakah Anda mengingkari atau mengabaikan masalah yang dapat dilalui ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa terbebani dengan nilai yang kurang bagus ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
      
             [
-                'title' => 'Saya meremehkan seberapa lama waktu yang dibutuhkan dalam melakukan segala hal ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Saya mengabaikan tugas akhir (skripsi) yang saya kerjakan ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
      
             [
                 'title' => 'Saya merasa bahwa ada terlalu banyak deadline dalam tugas dan kehidupan yang sulit untuk diselesaikan ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah Anda merasa terlalu sensitif ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah penglihatan Anda tajam tidak seperti biasanya ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Saya mengabaikan tugas akhir (skripsi) yang sedang dikerjakan',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda semakin sukar tidur ?',
+                'is_yes' => 0.9,
+                'is_not' => 0
             ],
 
             [
-                'title' => 'Saya enggan untuk bertemu dosen pembimbing',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Saya merasa selalu menyenangkan dan selalu bertambah semangat ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
             
             [
-                'title' => 'Apakah anda merasa terbebani dengan tuntutan orang tua untuk lulus tepat waktu?',
-                'is_yes' => 60,
-                'is_not' => 40
-            ],
-             
-            
-            [
-                'title' => 'Apakah anda merasa terbebani dengan nilai yang kurang bagus ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa terbebani dengan tuntutan orang tua untuk lulus tepat waktu ?',
+                'is_yes' => 0.85,
+                'is_not' => 0
             ],
              
             [
-                'title' => 'Saya merasa tertekan ketika melihat teman sebaya yang telah menyelesaikan kuliahnya ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda tiba-tiba merasa lelah dan gelisah pada siang hari ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
              
             [
-                'title' => 'Saya mengalami mood yang gampang terbuai, sulit membuat keputusan, dan lemah konsentrasi dan memori ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Saya sulit untuk membuat keputusan, lemah dalam berkonsentrasi dan mengingat karena mood yang mudah berubah ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
+            ],
+             
+            [
+                'title' => 'Saya merasa tertekan, panik, sedih dan minder ketika melihat teman sebaya saya yang telah menyelesaikan kuliahnya ?',
+                'is_yes' => 0.75,
+                'is_not' => 0
             ],
             
             
             [
-                'title' => 'Rasa percaya diri atau penghargaan diri saya lebih rendah dari yang saya inginkan',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Rasa percaya diri atau penghargaan diri saya lebih rendah dari yang saya inginkan ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
             
+            [
+                'title' => 'Apakah Anda sering merasa mulas atau mual ketika gugup atau menghadapi momen yang menegangkan ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
+            ],
+    
+            [
+                'title' => 'Apakah kadang-kadang pula jantung berdebar-debar ?',
+                'is_yes' => 0.9,
+                'is_not' => 0
+            ],
+    
+            [
+                'title' => 'Saya meremehkan berapa lama waktu yang dibutuhkan untuk mengerjakan tugas kuliah dan tugas akhir (skripsi) ?',
+                'is_yes' => 0.75,
+                'is_not' => 0
+            ],
+    
+            [
+                'title' => 'Apakah Anda kadang memiliki gangguan dalam sistem pencernaan (gangguan usus dan perut kembung) ? ',
+                'is_yes' => 0.8,
+                'is_not' => 0
+            ],
+    
+            [
+                'title' => 'Apakah Anda mengingkari atau mengabaikan masalah yang dapat dilalui ?',
+                'is_yes' => 0.75,
+                'is_not' => 0
+            ],
+    
+            [
+                'title' => 'Anda merasa tegang pada otot-otot punggung dan tengkuk (belakang leher) ?',
+                'is_yes' => 0.75,
+                'is_not' => 0
+            ],
+    
             [
                 'title' => 'Apakah Anda merasa letih sewaktu bangun pagi ?',
-                'is_yes' => 60,
-                'is_not' => 40
-            ],
-    
-            [
-                'title' => 'Apakah Anda merasa lelah sesudah makan siang ?',
-                'is_yes' => 60,
-                'is_not' => 40
-            ],
-    
-            [
-                'title' => 'Apakah Anda merasa lelah menjelang sore ?',
-                'is_yes' => 60,
-                'is_not' => 40
-            ],
-    
-            [
-                'title' => 'Apakah terkadang Anda mengalami gangguan dalam sistem pencernaan (gangguan usus, perut kembung) ? ',
-                'is_yes' => 60,
-                'is_not' => 40
-            ],
-    
-            [
-                'title' => 'Apakah kadang-kadan pula jantung berdebar-debar ?',
-                'is_yes' => 60,
-                'is_not' => 40
-            ],
-    
-            [
-                'title' => 'Anda merasakan tegang pada otot-otot punggung dan tengkuk (belakang leher) ?',
-                'is_yes' => 60,
-                'is_not' => 40
-            ],
-    
-            [
-                'title' => 'Apakah Anda merasa gangguan pada usus lebih terasa (sakit perut, mulas) ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'is_yes' => 0.85,
+                'is_not' => 0
             ],
     
             [
                 'title' => 'Apakah otot-otot terasa lebih tegang ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'is_yes' => 0.75,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Anda merasakan ketegang yang semakin meningkat ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasakan ketegangan semakin meningkat ?',
+                'is_yes' => 0.85,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Anda memiliki gangguan tidur (sukar tidur, sering terbangun malam dan sukar tidur kembali atau bangun terlalu pagi) ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Anda memiliki gangguan tidur (sukar tidur, terbangun pada malam hari dan sukar tidur kembali atau bangun terlalu pagi) ?',
+                'is_yes' => 0.85,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Badan Anda terasa oyong, rasa-rasa mau pingsan (tidak sampai jatuh pingsan) ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Badan saya terasa oyong, kepala pusing, mata berkunang-kunang, pucat dan terasa ingin pingsan ketika tekanan darah saya kurang (anemia) ?',
+                'is_yes' => 0.75,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah Anda merasa untuk bisa bertahan sepanjang hari terasa sulit ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa lelah menjelang sore ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah Anda Merasa kehilangan kemampuan untuk menanggapi situasi pergaulan sosial dan kegiatan-kegiatan rutin lainnya terasa berat ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda selalu merasa lelah, kurang fokus dan mood yang berantakan bahkan bertahan sepanjang hari terasa sulit ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah tidur Anda semakin sukar ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa berat atau tidak mampu untuk menanggapi percakapan, obrolan dan aktivitas sosial itu lainnya ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah Anda merasakan perasaan negativistik ? ',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa takut yang tidak dapat dijelaskan ? ',
+                'is_yes' => 0.9,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah kemampuan berkonsentrasi Anda menurun tajam ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa negativistik ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Anda merasaan takut yang tidak dapat dijelaskan ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa letih walau tidak beraktivitas berat ?',
+                'is_yes' => 0.85,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah Anda merasa keletihan yang mendalam ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa kurang mampu untuk melakukan pekerjaan sederhana seperti membaca dan menulis ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Anda merasa untuk pekerjaan yang sederhana saja terasa kurang mampu ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa gangguan sistem pencernaan (sakit maag dan usus ) lebih sering ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah Anda merasa gangguan sistem pencernaan (sakit maag dan usus) lebih sering ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasakan perasaan takut semakin menjadi, seperti panik ?',
+                'is_yes' => 0.7,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah Anda merasa sukar buang air besar atau sebaliknya ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda merasa terlalu bersemangat ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
     
             [
-                'title' => 'Apakah mimpi-mimpi yang Anda alami menegangkan ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah Anda sering kali terbangun dini hari ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
 
             [
-                'title' => 'Apakah Anda sering kali terbangun dini hari ?',
-                'is_yes' => 60,
-                'is_not' => 40
+                'title' => 'Apakah kemampuan konsentrasi Anda menurun tajam ?',
+                'is_yes' => 0.8,
+                'is_not' => 0
             ],
     
         ];

@@ -209,7 +209,7 @@ class QuestionSeeder extends Seeder
             ],
     
             [
-                'title' => 'Apakah Anda merasa negativistik ?',
+                'title' => 'Apakah Anda merasa negativistik (tindakan menolak atau menantang nasihat, permintaan, dan perintah orang lain)?',
                 'is_yes' => 0.8,
                 'is_not' => 0
             ],
